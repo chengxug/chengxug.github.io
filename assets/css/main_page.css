@@ -1,0 +1,13 @@
+.main_page{
+    flex-grow: 1;
+    width:100%;
+    padding: 1rem 3rem;
+    margin-top:0;
+    margin-left: 18%;
+    margin-right: 15%;
+    margin-bottom: 0;
+}
+.sidenav.collapsed ~ .main_page{
+    margin-left: 0%; /*左侧边栏收缩时，填补位置*/
+    transition: 0.3s  ease-in-out;
+}

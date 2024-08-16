@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
+      }
+    };
+</script>
+<script   id="MathJax-script" async src="https://cdn.bootcss.com/mathjax/3.0.5/es5/tex-mml-chtml.js"></script>
+<h1 class="post-title">{{ page.title }}</h1>
+{% include date_and_social_share.html %}
+{{ content }}

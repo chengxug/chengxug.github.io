@@ -1,0 +1,99 @@
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    background-color: #131821;
+    position: fixed;
+    left: 0px;
+    width: 10%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+
+.img_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.sidenav img {
+    max-width: 70%; /* 确保图片宽度不超过侧边栏 */
+    height: auto; /* 让图片高度自适应 */
+    border-radius: 10%;
+}
+
+.sidenav_desc{
+    text-align: center;
+    font-size: 14px;
+    color: #505b67;
+    margin-bottom: 30px;
+}
+
+.nav_menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav_menu_group{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border-bottom: 1px solid #1e2631;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_menu_item{
+    text-decoration: none; /*去除link的下划线*/
+    padding: 14px 0 15px;
+    font-size:.875rem;
+    color:#505b67; /*current page #FFFFFF*/
+}
+
+.nav_menu_item:hover{
+    color: #FFFFFF;
+}
+
+#cb{
+    display: none;
+}
+
+label{
+    position: fixed;
+    left: 10.5%;
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #9e9e9e70;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+#cb:checked ~ .sidenav{
+    left: -10%;
+}
+#cb:checked ~ label{
+    left: 1%;
+}
+
+.menu-icon{
+    padding: 5px 0;
+    width: 25px;
+    height: 3px;
+    background: #efefef;
+     background-clip: content-box; /*背景颜色从内容区域开始绘制 */
+    border-top: 3px solid #efefef;
+    border-bottom: 3px solid #efefef;
+}
+
+label:hover{
+    background-color: #52565e;
+}
