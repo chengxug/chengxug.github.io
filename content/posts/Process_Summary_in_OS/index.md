@@ -2,6 +2,7 @@
 title: "操作系统——进程总结"
 date: "2025-06-13"
 draft: false
+column: learning
 tags:
   - 操作系统
 ---

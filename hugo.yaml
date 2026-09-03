@@ -78,6 +78,16 @@ params:
   assets:
     disableHLJS: true
 
+  columns: # 归档页栏目配置（key 对应文章 frontmatter 的 column 字段）
+    - key: doing
+      name: 在做项目
+    - key: tools
+      name: 工具分享
+    - key: learning
+      name: 学习总结
+    - key: thoughts
+      name: 无聊思考
+
   analytics: # 网站统计配置
     google:
       id: "G-ZXSF3W965J" # GA4 衡量 ID（Measurement ID）
