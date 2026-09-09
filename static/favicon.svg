@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 1254">
+  <title>白想's Blog — B + Mountain Logo</title>
+  <desc>Pure SVG vector logo recreated from the selected reference artwork.</desc>
+  <defs>
+    <radialGradient id="bg" cx="47%" cy="43%" r="78%">
+      <stop offset="0%" stop-color="#07142D"/>
+      <stop offset="55%" stop-color="#061126"/>
+      <stop offset="100%" stop-color="#07142B"/>
+    </radialGradient>
+    <linearGradient id="mountain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8DD5FF"/>
+      <stop offset="100%" stop-color="#68BDF2"/>
+    </linearGradient>
+    <linearGradient id="facet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded-square background -->
+  <rect width="1254" height="1254" rx="230" fill="url(#bg)"/>
+
+  <!-- Geometric B -->
+  <path fill="#FEFEFE" d="
+    M 424 246
+    L 744 246
+    C 835 246 901 275 940 338
+    C 960 371 970 395 970 432
+    C 970 493 944 540 893 576
+    C 881 584 867 590 851 593
+    C 897 600 936 617 967 643
+    C 999 670 1014 717 1014 766
+    C 1014 838 979 899 928 931
+    C 916 939 902 947 888 955
+    L 800 824
+    C 830 810 845 784 845 755
+    C 845 708 822 680 788 680
+    L 729 678
+    L 631 529
+    L 735 527
+    C 773 526 796 502 796 454
+    C 796 410 771 383 725 383
+    L 578 383
+    L 577 514
+    L 424 692
+    Z"/>
+
+  <!-- Main lower-left mountain, intentionally acting as the B's complement -->
+  <path fill="url(#mountain)" d="
+    M 205 1013
+    L 585 559
+    L 799 983
+    L 540 824
+    Z"/>
+
+  <!-- Dark-blue folded facet -->
+  <path fill="url(#facet)" d="
+    M 585 559
+    L 872 963
+    L 799 983
+    Z"/>
+</svg>

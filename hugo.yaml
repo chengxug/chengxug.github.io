@@ -77,6 +77,9 @@ params:
   math: false 
   assets:
     disableHLJS: true
+    favicon: "favicon.svg"
+  label:
+    icon: "favicon.svg"
 
   analytics: # 网站统计配置
     google:
