@@ -2,6 +2,7 @@
 title: "C++——虚函数"
 date: 2026-04-05
 draft: false
+column: learning
 tags:
     - C++
     - Notebook

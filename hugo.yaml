@@ -81,6 +81,16 @@ params:
   label:
     icon: "favicon.svg"
 
+  columns: # 归档页栏目配置（key 对应文章 frontmatter 的 column 字段）
+    - key: doing
+      name: 在做项目
+    - key: learning
+      name: 学习总结
+    - key: thoughts
+      name: 无聊思考
+    - key: misc
+      name: 杂项
+
   analytics: # 网站统计配置
     google:
       id: "G-ZXSF3W965J" # GA4 衡量 ID（Measurement ID）

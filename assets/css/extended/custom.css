@@ -10,5 +10,26 @@
 .post-content pre,
 .post-content code {
   font-family: 'MesloLGM Nerd Font', monospace !important;
-  color: inherit;  /* 不覆盖语法高亮色 */
+  color: inherit;
+  /* 不覆盖语法高亮色 */
+}
+
+/* 归档页栏目样式 */
+.archive-column {
+  margin-top: 40px;
+}
+
+.archive-column:not(:last-of-type) {
+  border-bottom: 2px solid var(--border);
+}
+
+.archive-column-header {
+  margin: 0 0 10px;
+  font-size: 1.4em;
+}
+
+.archive-empty {
+  padding: 10px 5px;
+  color: var(--secondary);
+  font-size: 14px;
 }

@@ -2,6 +2,7 @@
 title: "C++——智能指针"
 date: 2026-04-05
 draft: false
+column: learning
 tags:
     - C++
     - Notebook

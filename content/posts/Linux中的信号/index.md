@@ -2,6 +2,7 @@
 title: "Linux中的信号"
 date: 2026-07-26
 draft: false
+column: learning
 tags:
     - learning record
     - Notebook
